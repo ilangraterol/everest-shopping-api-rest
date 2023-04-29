@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Order, Article
+from .models import Order, Article 
 
 
 class ArticleInline(admin.TabularInline):
@@ -16,7 +16,7 @@ class OrderAdmin(admin.ModelAdmin):
 
 
 @admin.register(Article)
-class ArticleAdmin(admin.ModelAdmin):
+class ArticleAdmin(admin.ModelAdmin):    
     list_display = ('article_name', 'article_price', 'article_quantity', 'article_code', 'order')
     list_filter = ('order__processed_status',)
     search_fields = ('article_name', 'article_code', 'order__order_number')
