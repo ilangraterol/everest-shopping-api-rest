@@ -1,0 +1,24 @@
+{
+    "order_number": "003",
+    "processed_status": false,
+    "articles": [
+        {
+            "article_name": "Lápiz",
+            "article_price": 0.5,
+            "article_quantity": 2,
+            "article_code": "LPZ001"
+        },
+        {
+            "article_name": "Borrador",
+            "article_price": 0.25,
+            "article_quantity": 1,
+            "article_code": "BRR001"
+        },
+        {
+            "article_name": "Libreta",
+            "article_price": 2.5,
+            "article_quantity": 3,
+            "article_code": "LBT001"
+        }
+    ]
+}
