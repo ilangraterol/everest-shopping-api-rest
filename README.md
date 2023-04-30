@@ -1,5 +1,3 @@
-¡Por supuesto! Aquí te dejo un ejemplo de cómo podría ser el archivo README.md para tu proyecto:
-
 Proyecto Everest
 Este proyecto contiene la implementación de una aplicación de gestión de órdenes para la empresa Everest.
 
@@ -10,34 +8,30 @@ Django REST Framework 3.12
 Instalación
 Clonar este repositorio:
 
-bash
-Copy code
+
 git clone https://github.com/tu-usuario/proyecto-everest.git
 cd proyecto-everest
 Crear y activar un entorno virtual:
 
-bash
-Copy code
+
 python3 -m venv venv
 source venv/bin/activate
 Instalar las dependencias:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Aplicar las migraciones de la base de datos:
 
-bash
-Copy code
+
 python manage.py migrate
 Iniciar el servidor:
 
-bash
-Copy code
+
 python manage.py runserver
 Acceder a la aplicación en el navegador web en la dirección http://localhost:8000/
 
 Uso
+
 La aplicación cuenta con las siguientes funcionalidades:
 
 Listado de órdenes
