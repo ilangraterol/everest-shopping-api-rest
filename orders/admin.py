@@ -1,4 +1,5 @@
 from django.contrib import admin
+from django.utils.translation import gettext_lazy as _
 from .models import Order, Article 
 
 
@@ -13,6 +14,7 @@ class OrderAdmin(admin.ModelAdmin):
     list_filter = ('processed_status',)
     search_fields = ('order_number',)
     inlines = [ArticleInline]
+    date_hierarchy = 'created_at'  # Agrega la opción date_hierarchy
 
 
 @admin.register(Article)
